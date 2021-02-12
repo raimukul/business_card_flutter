@@ -8,6 +8,7 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.yellowAccent,
         body: SafeArea(
@@ -22,14 +23,14 @@ class Myapp extends StatelessWidget {
               Text(
                 'Mukul Rai',
                 style: TextStyle(
-                  fontSize: 50.0,
+                  fontSize: 40.0,
                   fontFamily: 'Yellowtail',
                 ),
               ),
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
-                  fontSize: 20.0,
+                  fontSize: 18.0,
                   fontFamily: 'LexendMega',
                 ),
               ),
@@ -52,7 +53,7 @@ class Myapp extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'LexendMega',
                       color: Colors.black54,
-                      fontSize: 18.0,
+                      fontSize: 16.0,
                     ),
                   ),
                 ),
@@ -69,7 +70,7 @@ class Myapp extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'LexendMega',
                       color: Colors.black54,
-                      fontSize: 18.0,
+                      fontSize: 16.0,
                     ),
                   ),
                 ),
